@@ -1,0 +1,51 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+
+.nav-link {
+    color: white !important;
+}
+
+#logo {
+    color: white !important;
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+.jumbotron {
+    background-image: asset-url('flower.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+}
+
+#login-button {
+    background-color: rgb(196, 100, 87);
+    color: white;
+}
+
+
+#nav-button {
+    background-color: rgb(196, 100, 87);
+    color: white;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: rgb(226, 226, 226)
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
